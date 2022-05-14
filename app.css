@@ -1,0 +1,40 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 70%;
+  margin: auto;
+  margin-top: 30vh;
+}
+tr:nth-child(even) {
+  background-color: #cecece;
+}
+tr:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+
+thead th {
+  background-color: #595959;
+}
+tr.son {
+  background-color: #595959;
+}
+
+div.sc-buttons {
+  width: 85%;
+  text-align: right;
+}
+div.sc-buttons i {
+  color: rgb(59, 59, 59);
+}
+div.sc-buttons button {
+  background-color: tomato;
+  font-size: 1.1rem;
+  color: white;
+  padding: 0.5rem;
+  border: 0;
+}
